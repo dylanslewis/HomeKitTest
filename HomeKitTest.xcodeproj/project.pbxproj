@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FCCFD56B1C4A9E4E0000933D /* HomeKitDatabaseObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCFD56A1C4A9E4E0000933D /* HomeKitDatabaseObserver.swift */; };
+		FCCFD56D1C4AA0D40000933D /* HomeDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCFD56C1C4AA0D40000933D /* HomeDataStore.swift */; };
 		FCD8D0621C3DAEEF007E2772 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD8D0611C3DAEEF007E2772 /* AppDelegate.swift */; };
 		FCD8D0641C3DAEEF007E2772 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD8D0631C3DAEEF007E2772 /* ViewController.swift */; };
 		FCD8D0671C3DAEEF007E2772 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD8D0651C3DAEEF007E2772 /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FCCFD56A1C4A9E4E0000933D /* HomeKitDatabaseObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeKitDatabaseObserver.swift; sourceTree = "<group>"; };
+		FCCFD56C1C4AA0D40000933D /* HomeDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDataStore.swift; sourceTree = "<group>"; };
 		FCD8D05E1C3DAEEF007E2772 /* HomeKitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeKitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCD8D0611C3DAEEF007E2772 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCD8D0631C3DAEEF007E2772 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +109,8 @@
 				FCD8D08F1C3DAF2E007E2772 /* HomeKitTest.entitlements */,
 				FCD8D0611C3DAEEF007E2772 /* AppDelegate.swift */,
 				FCD8D0631C3DAEEF007E2772 /* ViewController.swift */,
+				FCCFD56C1C4AA0D40000933D /* HomeDataStore.swift */,
+				FCCFD56A1C4A9E4E0000933D /* HomeKitDatabaseObserver.swift */,
 				FCD8D0651C3DAEEF007E2772 /* Main.storyboard */,
 				FCD8D0681C3DAEEF007E2772 /* Assets.xcassets */,
 				FCD8D06A1C3DAEEF007E2772 /* LaunchScreen.storyboard */,
@@ -268,7 +274,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCCFD56B1C4A9E4E0000933D /* HomeKitDatabaseObserver.swift in Sources */,
 				FCD8D0641C3DAEEF007E2772 /* ViewController.swift in Sources */,
+				FCCFD56D1C4AA0D40000933D /* HomeDataStore.swift in Sources */,
 				FCD8D0621C3DAEEF007E2772 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,6 +510,7 @@
 				FCD8D0881C3DAEEF007E2772 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCD8D0891C3DAEEF007E2772 /* Build configuration list for PBXNativeTarget "HomeKitTestTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +519,7 @@
 				FCD8D08B1C3DAEEF007E2772 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCD8D08C1C3DAEEF007E2772 /* Build configuration list for PBXNativeTarget "HomeKitTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +528,7 @@
 				FCD8D08E1C3DAEEF007E2772 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
